@@ -55,7 +55,7 @@
   transform: translateY(40px);
   width: 70px;
   height: 70px;
-  button {
+  .diceButton {
     transition: all 0.2s ease-in-out;
     background: $color2;
     width: 100%;
@@ -71,7 +71,7 @@
     }
   }
 }
-button:hover {
+.diceButton:hover {
   filter: drop-shadow(0px 0px 16px $color2);
 }
 @media screen and (max-width: 630px) {

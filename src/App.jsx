@@ -28,7 +28,7 @@ function App() {
       </div>
           
     <div className="diceContainer">
-        <button onClick={() => getAdvice()}><img className='diceImg' src={dice} alt="" /></button>
+        <div className="diceButton" onClick={() => getAdvice()}><img className='diceImg' src={dice} alt="" /></div>
         
       </div>
     </div>

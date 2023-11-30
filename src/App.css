@@ -51,7 +51,7 @@
   width: 70px;
   height: 70px;
 }
-.diceContainer button {
+.diceContainer .diceButton {
   transition: all 0.2s ease-in-out;
   background: hsl(150, 100%, 66%);
   width: 100%;
@@ -62,12 +62,12 @@
   border-radius: 1000px;
   border: none;
 }
-.diceContainer button .diceImg {
+.diceContainer .diceButton .diceImg {
   width: 40%;
   height: 40%;
 }
 
-button:hover {
+.diceButton:hover {
   filter: drop-shadow(0px 0px 16px hsl(150, 100%, 66%));
 }
 
