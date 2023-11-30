@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+#root {
+  background: hsl(218, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 594px;
+  height: 365px;
+  background: hsl(217, 19%, 24%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.app .adviceNumber {
+  color: hsl(150, 100%, 66%);
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin-top: 40px;
+}
+.app .adviceContainer {
+  width: 90%;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+  height: 190px;
+}
+.app .pattern-divider-desktop {
+  width: 80%;
+}
+.app .pattern-divider-desktop img {
+  width: 100%;
+}
+
+.diceContainer {
+  transform: translateY(-35px);
+  width: 70px;
+  height: 70px;
+}
+.diceContainer button {
+  transition: all 0.2s ease-in-out;
+  background: hsl(150, 100%, 66%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  border: none;
+}
+.diceContainer button .diceImg {
+  width: 40%;
+  height: 40%;
+}
+
+button:hover {
+  filter: drop-shadow(0px 0px 16px hsl(150, 100%, 66%));
+}
+
+@media screen and (max-width: 630px) {
+  .app {
+    width: 90%;
+  }
+  .app .adviceContainer {
+    width: 80%;
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=App.css.map */
