@@ -20,7 +20,7 @@ function App() {
     <div className="app">
       <div className="adviceNumber">ADVICE #{adviceNumber}</div>
       <div className="adviceContainer">
-        <div className="adviceText">{advice}</div>
+        <div className="adviceText"><h1>{advice}</h1></div>
       </div>
 
       <div className="pattern-divider-desktop">

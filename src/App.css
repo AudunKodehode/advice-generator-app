@@ -31,11 +31,13 @@
 }
 .app .adviceContainer {
   width: 90%;
-  font-size: 32px;
   color: white;
   text-align: center;
   margin-top: 16px;
   height: 190px;
+}
+.app .adviceContainer h1 {
+  font-size: 32px;
 }
 .app .pattern-divider-desktop {
   width: 80%;
@@ -75,6 +77,8 @@ button:hover {
   }
   .app .adviceContainer {
     width: 80%;
+  }
+  .app .adviceContainer h1 {
     font-size: 24px;
   }
 }/*# sourceMappingURL=App.css.map */

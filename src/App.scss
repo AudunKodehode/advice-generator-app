@@ -34,8 +34,10 @@
     margin-top: 40px;
   }
   .adviceContainer {
+    h1{
+        font-size: 32px;
+    }
     width: 90%;
-    font-size: 32px;
     color: white;
     text-align: center;
     margin-top: 16px;
@@ -76,8 +78,10 @@ button:hover {
   .app {
     width: 90%;
     .adviceContainer {
+        h1{
+            font-size: 24px;
+        }
         width: 80%;
-        font-size: 24px;
       }
   }
 
