@@ -26,12 +26,13 @@ function App() {
       <div className="pattern-divider-desktop">
       <img src={paterndiv} alt="" />
       </div>
-    </div>
-    
+          
     <div className="diceContainer">
         <button onClick={() => getAdvice()}><img className='diceImg' src={dice} alt="" /></button>
         
       </div>
+    </div>
+
     </>
   )
 }
